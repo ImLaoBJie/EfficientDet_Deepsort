@@ -3,13 +3,13 @@ import torch
 
 # I/O ##################################################################################################################
 # Video's path
-video_src = "E:/workplace/EfficientDet_Deepsort/test/TESTVIDIODATA/demo001.mp4"  # set int to use webcam, set str to read from a video file
-video_output = "E:/workplace/EfficientDet_Deepsort/test/TESTVIDIODATA/demo001_output.mp4"  # output to the specific position
+video_src = ""  # set int to use webcam, set str to read from a video file
+video_output = ""  # output to the specific position
 
-text_output = "F:/video/00030_d0_output.csv"  # output to the file with the csv format
+text_output = ""  # output to the file with the csv format
 
 # DETECTOR #############################################################################################################
-compound_coef = 4
+compound_coef = 0
 force_input_size = None  # set None to use default size
 
 threshold = 0.2
