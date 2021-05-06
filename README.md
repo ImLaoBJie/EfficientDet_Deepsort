@@ -20,7 +20,7 @@ EfficientNet 实现: [zylo117/Yet-Another-EfficientDet-Pytorch](https://github.c
 
 1. 打开`config.py`, 修改参数
 
-特别说明
+ - 特别说明
 
 ```
 compound_coef = 0  # BiFPN Layer 的层数
@@ -36,9 +36,9 @@ selected_target  # 需要跟踪的目标
 
 4. 权重下载或训练
 
-EfficientDet Model不同层数的预训练权重文件和训练脚本见 [zylo117/Yet-Another-EfficientDet-Pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) 的Readme
+ - EfficientDet Model不同层数的预训练权重文件和训练脚本见 [zylo117/Yet-Another-EfficientDet-Pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) 的Readme
 
-DeepSort Tracker预训练权重和训练脚本见 [ZQPei/deep_sort_pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) 的Readme
+ - DeepSort Tracker预训练权重和训练脚本见 [ZQPei/deep_sort_pytorch](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) 的Readme
 
 
 
